@@ -1,8 +1,10 @@
 .leftPaneBox{
-    background-color: beige;
     flex:2;
     height: calc(100vh - 50px);
     overflow-y: scroll;
+    font-family: sans-serif;
+    position: sticky;
+    top: 50px;
 }
 ::-webkit-scrollbar{
     width: 5px;
@@ -26,6 +28,16 @@
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
+     transition: 0.4s;
+}
+.leftPaneMenuItem:hover{
+    -webkit-box-shadow: 1px 6px 25px -16px rgba(0,0,0,0.83); 
+    box-shadow: 1px 6px 25px -16px rgba(0,0,0,0.83);
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(45deg, #d9e7fe, #bbd0f4);
+   
 }
 .leftPaneMenuIcon{
     margin-right: 20px;
@@ -47,7 +59,11 @@
     align-items: center;
     margin-bottom: 15px;
     margin-top: 10px;
+    transition: 0.4s;
 }
-.pageName{
-
+.pageListItem:hover{
+-webkit-box-shadow: 1px 6px 25px -16px rgba(0,0,0,0.83); 
+    box-shadow: 1px 6px 25px -16px rgba(0,0,0,0.83);
+    border-radius: 10px;
+    padding: 10px;
 }
