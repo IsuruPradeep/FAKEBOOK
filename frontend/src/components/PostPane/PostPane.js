@@ -3,7 +3,7 @@ import "./postPane.css"
 
 export default function PostPane() {
   return (
-    <div>
+    <div className='postPaneBox'>
       PostPane
     </div>
   )

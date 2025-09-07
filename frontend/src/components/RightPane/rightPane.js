@@ -3,7 +3,7 @@ import "./rightPane.css"
 
 export default function rightPane() {
   return (
-    <div>
+    <div className='rightPaneBox'>
       rightPane
     </div>
   )
